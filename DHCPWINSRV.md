@@ -1,10 +1,10 @@
 ## Configurer la carte réseau de la machine virtuelle en Réseau Interne
 
-* Mode réseau interne
+**Mode réseau interne**
 
 ![CHOIX_RESEAU_INTERNE.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CARTE_RESEAU_IPv4_SERVEUR/CHOIX_RESEAU_INTERNE.PNG)
 
-* Configurer l'adresse IPv4 du serveur
+**Configurer l'adresse IPv4 du serveur**
 
 - Depuis les paramètres **Réseau et Internet**, sur la machine serveur, cliquer sur **Modifier les options d'adaptateur** : 
 
