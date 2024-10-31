@@ -54,16 +54,16 @@ Le serveur DHCP possède la bonne IPv4.
 
 - Clic droit sur le serveur DHCP, cliquer sur **Gestionnaire DHCP** :
 
-![GESTIONNAIRE_DHCP.png]()
+![GESTIONNAIRE_DHCP.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/IPv4_DEPUIS_MAC/GESTIONNAIRE_DHCP.PNG)
 
 - Depuis **Réservations**, clic sur **Action** puis sur **Nouvelle réservation...** :
 
-![CLIC_ACTION.png]()
-![NOUVELLE_RESERVATION.png]()
+![CLIC_ACTION.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/IPv4_DEPUIS_MAC/CLIC_ACTION.PNG)
+![NOUVELLE_RESERVATION.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/IPv4_DEPUIS_MAC/NOUVELLE_RESERVATION.PNG)
 
 - Définir l'adresse MAC de la machine et l'adresse IP qui lui sera automatiquement attribué :
 
-![IPv4_DEPUIS_MAC]()
+![IPv4_DEPUIS_MAC](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/IPv4_DEPUIS_MAC/IPv4_DEPUIS_MAC.PNG)
 
 ## Poste une procédure au format markdown permettant pas à pas d'obtenir cette configuration ainsi que les tests associés
 
