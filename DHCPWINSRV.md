@@ -4,7 +4,16 @@
 
 ![CHOIX_RESEAU_INTERNE.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CARTE_RESEAU_IPv4_SERVEUR/CHOIX_RESEAU_INTERNE.PNG)
 
-**Configurer l'adresse IPv4 du serveur**
+**Création du DHCP**
+
+
+
+**Terminer de configurer le serveur DHCP**
+
+
+
+
+**Configurer l'adresse IPv4 du serveur DHCP**
 
 - Depuis les paramètres **Réseau et Internet**, sur la machine serveur, cliquer sur **Modifier les options d'adaptateur** : 
 
@@ -29,14 +38,32 @@ Le serveur DHCP possède la bonne IPv4.
 
 
 
+
+
+
+**Fournir des adresses IP de la plage 172.20.0.100 - 172.20.0.200 sur le réseau 172.20.0.0/24**
+
+
+
 ## Un client qui rejoint le réseau obtient une adresse IP dans la plage donnée par le DHCP.
 
-* Le client a bien obtenu une adresse IPv4 grâce au DCHP :
+- Le client a bien obtenu une adresse IPv4 grâce au DCHP :
 ![]()
 
 ## Mettre en place une attribution statique pour une machine cliente particulière dont l'adresse MAC permet d'obtenir l'adresse 172.20.0.10
 
-![]()
+- Clic droit sur le serveur DHCP, cliquer sur **Gestionnaire DHCP** :
+
+![GESTIONNAIRE_DHCP.png]()
+
+- Depuis **Réservations**, clic sur **Action** puis sur **Nouvelle réservation...** :
+
+![CLIC_ACTION.png]()
+![NOUVELLE_RESERVATION.png]()
+
+- Définir l'adresse MAC de la machine et l'adresse IP qui lui sera automatiquement attribué :
+
+![IPv4_DEPUIS_MAC]()
 
 ## Poste une procédure au format markdown permettant pas à pas d'obtenir cette configuration ainsi que les tests associés
 
