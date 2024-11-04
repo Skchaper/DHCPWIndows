@@ -159,11 +159,5 @@ Le serveur DHCP possède la bonne IPv4.
 
 ![IPv4_CLIENT_AVANT.png)](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/Requ%C3%AAte_R%C3%A9ponse%20ping%20et%20ipv4%20fixe%20DHCP/IPv4_CLIENT_AVANT.PNG)
 
-## Poste une procédure au format markdown permettant pas à pas d'obtenir cette configuration ainsi que les tests associés
-
-Le serveur DHCP possède un nom d'hôte adapté à son rôle (Exemple: SRV-DHCP) ainsi qu'une configuration IP correcte.
-La configuration du serveur permet bien aux client d'obtenir une adresse IP par le serveur DHCP dans la plage d'adresse donnée.
-Le client qui possède la réservation n'obtient pas une autre IPv4, même si il demande un renouvellement.
-La procédure est claire et permet effectivement lorsqu'elle est appliquée de répondre aux critères du challenge
 
 
