@@ -1,3 +1,5 @@
+<div align="center"><H1> Quête DHCP Windows </H1></div>
+
 ## Configurer la carte réseau de la machine virtuelle en Réseau Interne
 
 **Mode réseau interne**
