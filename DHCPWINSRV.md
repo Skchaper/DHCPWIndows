@@ -128,8 +128,17 @@ Le serveur DHCP possède la bonne IPv4.
 
 ## Un client qui rejoint le réseau obtient une adresse IP dans la plage donnée par le DHCP.
 
-- Le client a bien obtenu une adresse IPv4 grâce au DCHP :
-![]()
+- Le client a bien obtenu une adresse IPv4 grâce au serveur DCHP après le redémarrage :
+
+![IPv4_ATTRIBUE.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/Requ%C3%AAte_R%C3%A9ponse%20ping%20et%20ipv4%20fixe%20DHCP/IPv4_ATTRIBUE.PNG)
+
+- Le client ping bien le serveur :
+
+![CLIENT_PING_SERVEUR.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/Requ%C3%AAte_R%C3%A9ponse%20ping%20et%20ipv4%20fixe%20DHCP/CLIENT_PING_SERVEUR.PNG)
+
+- Le serveur ping bien le client via l'IP définit par le DHCP :
+
+![SERVEUR_PING_CLIENT.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/Requ%C3%AAte_R%C3%A9ponse%20ping%20et%20ipv4%20fixe%20DHCP/SERVEUR_PING_CLIENT.PNG)
 
 ## Mettre en place une attribution statique pour une machine cliente particulière dont l'adresse MAC permet d'obtenir l'adresse 172.20.0.10
 
@@ -144,7 +153,11 @@ Le serveur DHCP possède la bonne IPv4.
 
 - Définir l'adresse MAC de la machine et l'adresse IP qui lui sera automatiquement attribué :
 
-![IPv4_DEPUIS_MAC](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/IPv4_DEPUIS_MAC/IPv4_DEPUIS_MAC.PNG)
+![IPv4_DEPUIS_MAC.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/IPv4_DEPUIS_MAC/IPv4_DEPUIS_MAC.PNG)
+
+- Après la demande de renouvèlement, le client obtient l'adresse IP fixe définie :
+
+![IPv4_CLIENT_AVANT.png)](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/Requ%C3%AAte_R%C3%A9ponse%20ping%20et%20ipv4%20fixe%20DHCP/IPv4_CLIENT_AVANT.PNG)
 
 ## Poste une procédure au format markdown permettant pas à pas d'obtenir cette configuration ainsi que les tests associés
 
