@@ -40,8 +40,17 @@
 
 **Terminer de configurer le serveur DHCP**
 
+- Cliquer sur le drapeau en haut à droite, puis sur **Terminer la configuration DHCP** :
 
+![DRAPEAU_TERMINER_CONFIG.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/TERMINER_CONFIG_DHCP/DRAPEAU_TERMINER_CONFIG.PNG)
 
+- Sur l'onglet **Description**, cliquer sur **Valider** :
+
+![DESCRIPTION_VALIDER.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/TERMINER_CONFIG_DHCP/DESCRIPTION_VALIDER.PNG)
+
+- Enfin, dans l'onglet **Résumé**, cliquer sur **Fermer** : 
+
+![RESUME_FERMER.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/TERMINER_CONFIG_DHCP/RESUME_FERMER.PNG)
 
 **Configurer l'adresse IPv4 du serveur DHCP**
 
