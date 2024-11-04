@@ -10,11 +10,11 @@
 
 ![CLIC_GERER.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CREATION_DHCP/CLIC_GERER.PNG)
 
-- **Ajouter des rôles et fonctionnaltiés** :
+- Puis sur **Ajouter des rôles et fonctionnaltiés** :
 
 ![AJOUTER_ROLES_FONCTIONNALITES.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CREATION_DHCP/AJOUTER_ROLES_FONCTIONNALITES.PNG)
 
-- **Installation basée sur un rôle ou une fonctionnalité** :
+- Cocher **Installation basée sur un rôle ou une fonctionnalité** :
 
 ![TYPE_INSTALLATION.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CREATION_DHCP/TYPE_INTALLATION.PNG)
 
