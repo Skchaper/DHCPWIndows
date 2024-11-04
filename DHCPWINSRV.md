@@ -76,13 +76,55 @@ Le serveur DHCP possède la bonne IPv4.
 ## Configurer le service DHCP pour qu'il fournisse des adresses IP de la plage 172.20.0.100 - 172.20.0.200 sur le réseau 172.20.0.0/24
 
 
-
-
-
-
 **Fournir des adresses IP de la plage 172.20.0.100 - 172.20.0.200 sur le réseau 172.20.0.0/24**
 
+- Accéder au **Gestionnaire DHCP** : 
 
+![GESTIONNAIRE_DHCP.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/GESTIONNAIRE_DHCP.PNG)
+
+- Créer une **Nouvelle étendue** : 
+
+![NOUVELLE_ETENDUE.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/NOUVELLE_ETENDUE.PNG)
+
+- Nommer l'étendue :
+
+![NOMMER_ETENDUE.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/NOMMER_ETENDUE.PNG)
+
+- Définir la **plage IP**, dans notre cas plage de 172.20.0.100 à 172.20.0.200 :
+
+![PLAGE_IP.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/PLAGE_IP.PNG)
+
+- Définir les **Exclusions / retard** s'il y a lieu :
+
+![EXCLUSION_RETARD.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/EXCLUSIONS_RETARD.PNG)
+
+- Définir la durée du bail, ici par défaut 8 jours : 
+
+![DUREE_BAIL.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/DUREE_BAIL.PNG)
+
+- Cocher **Oui, je veux configurer ces options maintenant** puis cliquer sur suivant :
+
+![OUI_CONFIG_OPTIONS.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/OUI_CONFIG_OPTIONS.PNG)
+
+- Attribuer la passerelle par défaut au serveur DHCP : 
+
+![ROUTEUR_ATTRIBUE.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/ROUTEUR_ATTRIBUE.PNG)
+
+- S'il y a lieu, renseigner **Nom de domaine et serveurs DNS** :
+
+![RENSEIGNER_NOM_DOMAINE_DNS.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/RENSEIGNER_NOM_DOMAINE_DNS.PNG)
+
+- Dans l'onglet **Serveurs Wins** laisser vide et poursuivre : 
+
+![SERVEUR_WINS.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/SERVEUR_WINS.PNG)
+
+- Dans **Activer l'étendue**, cliquer sur **Oui, je veux activer cette étendue maintenant** :
+
+![ACTIVER_ETENDUE.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/ACTIVER_ETENDUE.PNG)
+
+- Une fois sur cette onglet, cliquer sur **Terminer** :
+
+![CLIQUER_TERMINER.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/CLIQUER_TERMINER.PNG)
 
 ## Un client qui rejoint le réseau obtient une adresse IP dans la plage donnée par le DHCP.
 
