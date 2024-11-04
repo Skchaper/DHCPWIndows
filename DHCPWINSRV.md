@@ -1,10 +1,12 @@
 <div align="center"><H1> Quête DHCP Windows </H1></div>
-
+_________________________
 ## Configurer la carte réseau de la machine virtuelle en Réseau Interne
+_________________________
 
 **Mode réseau interne**
 
 ![CHOIX_RESEAU_INTERNE.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CARTE_RESEAU_IPv4_SERVEUR/CHOIX_RESEAU_INTERNE.PNG)
+_________________________
 
 **Création du DHCP**
 
@@ -39,6 +41,7 @@
 - Une fois sur l'onglet **Confirmation**, cliquer sur **Installer** puis attendre le résultat :
 
 ![CLIC_INSTALLER.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CREATION_DHCP/CLIC_INSTALLER.PNG)
+_________________________
 
 **Terminer de configurer le serveur DHCP**
 
@@ -53,6 +56,7 @@
 - Enfin, dans l'onglet **Résumé**, cliquer sur **Fermer** : 
 
 ![RESUME_FERMER.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/TERMINER_CONFIG_DHCP/RESUME_FERMER.PNG)
+_________________________
 
 **Configurer l'adresse IPv4 du serveur DHCP**
 
@@ -74,11 +78,10 @@
 ![IPv4_SERVEUR](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CARTE_RESEAU_IPv4_SERVEUR/IPv4_SERVEUR.PNG)
 
 Le serveur DHCP possède la bonne IPv4.
+_________________________
 
 ## Configurer le service DHCP pour qu'il fournisse des adresses IP de la plage 172.20.0.100 - 172.20.0.200 sur le réseau 172.20.0.0/24
-
-
-**Fournir des adresses IP de la plage 172.20.0.100 - 172.20.0.200 sur le réseau 172.20.0.0/24**
+_________________________
 
 - Accéder au **Gestionnaire DHCP** : 
 
@@ -127,6 +130,7 @@ Le serveur DHCP possède la bonne IPv4.
 - Une fois sur cette onglet, cliquer sur **Terminer** :
 
 ![CLIQUER_TERMINER.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/CONFIG_SERVEUR_DHCP/CLIQUER_TERMINER.PNG)
+_________________________
 
 ## Un client qui rejoint le réseau obtient une adresse IP dans la plage donnée par le DHCP.
 
@@ -141,6 +145,7 @@ Le serveur DHCP possède la bonne IPv4.
 - Le serveur ping bien le client via l'IP définit par le DHCP :
 
 ![SERVEUR_PING_CLIENT.png](https://github.com/Skchaper/DHCPWIndows/blob/main/PHOTOS_QU%C3%8ATE_DHCP_WINDOWS/Requ%C3%AAte_R%C3%A9ponse%20ping%20et%20ipv4%20fixe%20DHCP/SERVEUR_PING_CLIENT.PNG)
+_________________________
 
 ## Mettre en place une attribution statique pour une machine cliente particulière dont l'adresse MAC permet d'obtenir l'adresse 172.20.0.10
 
