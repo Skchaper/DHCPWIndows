@@ -1,5 +1,11 @@
 <div align="center"><H1> Quête DHCP Windows </H1></div>
 
+## Pré-requis techniques
+
+> Une VM Windows Server 2022  
+> Un client Windows 10 Pro  
+
+_________________________
 
 ## Configurer la carte réseau de la machine virtuelle en Réseau Interne
 _________________________
